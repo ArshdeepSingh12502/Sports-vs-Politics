@@ -1,0 +1,47 @@
+{
+  "NaiveBayes_Ngrams": {
+    "accuracy": 1.0,
+    "training_time": 0.014245748519897461,
+    "confusion_matrix": [
+      [
+        200,
+        0
+      ],
+      [
+        0,
+        200
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n    politics       1.00      1.00      1.00       200\n      sports       1.00      1.00      1.00       200\n\n    accuracy                           1.00       400\n   macro avg       1.00      1.00      1.00       400\nweighted avg       1.00      1.00      1.00       400\n"
+  },
+  "LogisticRegression_Ngrams": {
+    "accuracy": 1.0,
+    "training_time": 0.026376008987426758,
+    "confusion_matrix": [
+      [
+        200,
+        0
+      ],
+      [
+        0,
+        200
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n    politics       1.00      1.00      1.00       200\n      sports       1.00      1.00      1.00       200\n\n    accuracy                           1.00       400\n   macro avg       1.00      1.00      1.00       400\nweighted avg       1.00      1.00      1.00       400\n"
+  },
+  "SVM_Ngrams": {
+    "accuracy": 1.0,
+    "training_time": 0.14369797706604004,
+    "confusion_matrix": [
+      [
+        200,
+        0
+      ],
+      [
+        0,
+        200
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n    politics       1.00      1.00      1.00       200\n      sports       1.00      1.00      1.00       200\n\n    accuracy                           1.00       400\n   macro avg       1.00      1.00      1.00       400\nweighted avg       1.00      1.00      1.00       400\n"
+  }
+}
